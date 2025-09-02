@@ -1,5 +1,5 @@
 # import random
-# computer=random.choice([-1,0,1])
+# computer=random.choice([-1,0,1])#diff set
 n=int(input("enter 1 to encoding enter 2 for decoding"))
 if n==1:
     msg=input("enter msg for encoding")
@@ -22,10 +22,7 @@ elif n==2:
         print(decoding)
 else:
     print("Invalid")     
-
-
-
-
+    #this is of no use just practice
 # msg=input("enter the msg u want to decode")
 # b=msg.split()
 # for i in b:
@@ -36,3 +33,4 @@ else:
 #         c=b[1:]
 #         print(rand[:3]+c+b[:1]+rand[3:]) 
            
+
